@@ -16,11 +16,11 @@ SESSION_CONFIGS = [
         name='public_goods',
         num_demo_participants=3,
         app_sequence=['my_public_goods']
-    )
+    ),
     dict(
         name='public_goods_and_survey',
         num_demo_participants=3,
-        app_sequence=['survey', 'my_public_goods']
+        app_sequence=['my_simple_survey', 'my_public_goods']
     )
 ]
 
